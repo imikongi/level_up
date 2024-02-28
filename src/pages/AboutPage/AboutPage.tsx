@@ -2,10 +2,8 @@ import React from 'react';
 
 const AboutPage = () => {
 	return (
-		<div>
-			Aboutawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtinawdaefarwgergrtghrtin
-		</div>
-	);
+		<div>About</div>
+	)
 };
 
 export default AboutPage;
