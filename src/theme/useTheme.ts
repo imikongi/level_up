@@ -6,12 +6,13 @@ interface UseThemeRes {
 	toggleTheme: () => void
 }
 
-export const useTheme = () => {
+export const useTheme = (): UseThemeRes => {
 	const {theme, setTheme} = useContext(ThemeContext)
 
 	const toggleTheme = () => {
 		const newTheme = theme === Themes.DARK ? Themes.LIGHT : Themes.DARK
 		setTheme(newTheme)
+		//saving theme into the local storage by our constant key
 		localStorage.setItem(LOCAL_STORAGE_THEME_KEY, newTheme)
 	}
 
